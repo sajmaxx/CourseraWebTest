@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    background-color: lightslategray;
+    width:30%;
+    position:relative;
+    top: 10px;
+    left: 10px;
+    border: 2px solid darkblue;
+    padding: 5px;
+    float: left;
+    
+}
+
+@media(min-width: 992px)
+{
+    
+    .col-chick, .col-beef1, .col-sushi1
+    {
+        float: left;
+    }
+    .col-chick
+    {
+        width: 30%;
+    }
+
+    .col-beef
+    {
+        width: 30%;
+    }
+    
+    .col-sushi
+    {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .col-chick1, .col-beef1, .col-sushi1
+    {
+        float: left;
+    }
+    .col-chick1
+    {
+        width: 45%;
+    }
+
+    .col-beef1
+    {
+        width: 45%;
+    }
+    
+    .col-sushi1
+    {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 767px)
+{
+    .col-chick2, .col-beef2, .col-sushi2
+    {
+        float: left;
+    }
+    .col-chick2
+    {
+        width: 100%;
+    }
+
+    .col-beef2
+    {
+        width: 100%;
+    }
+    
+    .col-sushi2
+    {
+        width: 100%;
+    }
+}
+
+
+h1{
+    color:darkgoldenrod
+}
+
+
+div{
+    background-color: slateblue;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 3px solid black;
+    
+}
+
+
+.h2Chicken
+{
+    background-color: lightsalmon;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    font-size: medium;
+    align-content: right;
+    text-align:  center;
+    margin-left: 80%;
+    margin-top:0px;
+    
+}
+
+.h2Beef
+{
+    background-color: brown;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    font-size: medium;
+    align-content: right;
+    text-align:  center;
+    margin-left: 80%;
+    margin-top:0px;
+    
+}
+
+.h2Sushi
+{
+    background-color: peachpuff;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    font-size: medium;    
+    align-content: right;
+    text-align: center;
+    margin-left: 80%;
+    margin-top:0px;
+}
+
+
+
+
