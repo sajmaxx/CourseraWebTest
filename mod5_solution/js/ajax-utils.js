@@ -1,10 +1,10 @@
 (function (global) {
 
-// Set up a namespace for our utility
-var ajaxUtils = {};
+
+var ajaxUtils = {};  // Set up a namespace for our utility
 
 
-// Returns an HTTP request object
+// Returns an HTTP request objec   - this is not be directly available to user of  this script file 
 function getRequestObject() {
   if (window.XMLHttpRequest) {
     return (new XMLHttpRequest());
